@@ -1,0 +1,186 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+* {
+    border: 0px dashed red;
+}
+/* ====================
+     All screen sizes
+   ==================== */
+
+body {
+    font-family: 'Baskerville', serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.4;
+}
+
+#container {
+    max-width: 700px;
+    padding: 0 1em;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 42pt;
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.images {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.images img {
+    width: 280px;
+}
+
+.number {
+    font-size: 28px;
+    margin-bottom: 20px;
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    font-size: 24px;
+    margin-bottom: 80px;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.note {
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.5;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 32px 32px 32px;
+    padding: 16px;
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+#whitespace {
+    display: none;
+}
+
+footer {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 480px) {
+    /* ====================
+    INTERMEDIATE: Main
+   ==================== */
+    /* ==============
+    NOTE FROM RYAN: 
+    These styles are applied to screens larger than 480px wide 
+   ============== */
+    
+    ul {
+        margin-left: -40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* ============
+    WIDE: Main
+   ============ */
+    /* ==============
+    NOTE FROM RYAN: 
+    These styles are applied to screens larger than 768px wide 
+   ============== */
+    
+    body {
+        line-height: 1.5;
+    }
+    ul {
+        margin-left: 20px;
+    }
+    li {
+        margin-bottom: 90px;
+        margin-top: 40px;
+    }
+    .number {
+        font-weight: 700;
+        font-style: italic;
+        text-align: right;
+        position: absolute;
+        font-size: 40px;
+        margin-left: -90px;
+        text-align: right;
+        margin-top: 170px;
+    }
+    .images {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .note {
+        letter-spacing: .01rem;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 1.4;
+        max-width: 250px;
+        float: right;
+        border-bottom: none;
+        margin-right: -30px;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    /* ===============
+    Maximal Width
+   =============== */
+    /* ==============
+    NOTE FROM RYAN: 
+    These styles are applied to screens larger than 1140px wide 
+   ============== */
+    
+    #container {
+        padding-right: 70px;
+    }
+    ul {
+        margin-left: -40px;
+    }
+    .images {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .note {
+        margin-right: -150px;
+    }
+    .number {
+        margin-top: 170px;
+    }
